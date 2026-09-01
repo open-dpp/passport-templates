@@ -1,0 +1,1858 @@
+{
+  "id": "743a1860-076a-4eea-8a37-2286c16f2cc5",
+  "environment": {
+    "assetAdministrationShells": [
+      {
+        "assetInformation": {
+          "assetKind": "Type",
+          "globalAssetId": "ae82e8f8-524b-4f87-bb49-aab9f3867e51",
+          "specificAssetIds": [],
+          "assetType": null,
+          "defaultThumbnails": []
+        },
+        "extensions": [],
+        "category": null,
+        "idShort": null,
+        "displayName": [
+          {
+            "language": "de",
+            "text": "Eisen und Stahl"
+          },
+          {
+            "language": "en",
+            "text": "Iron and steel"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "7",
+          "revision": "0"
+        },
+        "embeddedDataSpecifications": [],
+        "derivedFrom": null,
+        "submodels": [
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "3763735a-e953-44ef-9f84-64c19f499f75"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "f63b6025-5ab0-45ca-a860-c6ee8c2f0f4b"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "29b81cc3-77f7-40c0-a58f-5e0f1ec436de"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "39a9f7d0-098f-4034-9277-e8cea3ce2d13"
+              }
+            ]
+          }
+        ],
+        "security": {
+          "localAccessControl": {
+            "accessPermissionRules": [
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "admin",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productOrigin",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "materials",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "environmentalAndCircularityData",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "memberRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "owner",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productOrigin",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "materials",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "environmentalAndCircularityData",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "memberRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "member",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productOrigin",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "materials",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "environmentalAndCircularityData",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "anonymous",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productOrigin",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "materials",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "environmentalAndCircularityData",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "submodels": [
+      {
+        "id": "3763735a-e953-44ef-9f84-64c19f499f75",
+        "extensions": [],
+        "category": null,
+        "idShort": "productIdentification",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "Product identification and classification"
+          },
+          {
+            "language": "de",
+            "text": "Produktidentifizierung und -klassifizierung"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "15",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "heatNumber",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Heat number [EN 10168, C00]"
+              },
+              {
+                "language": "de",
+                "text": "Heat number [EN 10168, C00]"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "modelIdentifier",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Model-level itentifier [EN 10168, B07]"
+              },
+              {
+                "language": "de",
+                "text": "Identifikator auf Modellebene [EN 10168, B07]"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "7282841",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "eaa76644-c411-4681-9028-45ddb33c07b5",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "CAST/ LOT number (if applicable)"
+              },
+              {
+                "language": "de",
+                "text": "Guss-/Losnummer (falls zutreffend)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "serialNumber",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Serial number"
+              },
+              {
+                "language": "de",
+                "text": "Seriennummer"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "SNX12345A",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "936d7248-8846-419c-9d2d-a34b3e7bf9b6",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Global Trade Identification No. (GTIN)"
+              },
+              {
+                "language": "de",
+                "text": "Globale Handelsidentifikationsnummer (GTIN)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "07098765432109",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "8c5cbac6-1e06-4150-bdc9-7455b9a73a73",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "TARIC Code"
+              },
+              {
+                "language": "de",
+                "text": "TARIC Code "
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "7208100000",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "hsCnCode",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "HS / CN Code"
+              },
+              {
+                "language": "de",
+                "text": "HS / CN Code"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "7208",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "purchaseOrder",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Purchase order [EN 10168, A07]"
+              },
+              {
+                "language": "de",
+                "text": "Bestellung [EN 10168, A07]"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "0334/2019/ZZS",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "esprCategory",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Product ESPR category"
+              },
+              {
+                "language": "de",
+                "text": "ESPR-Produktkategorie"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "24.10.1",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "steelGradeClassification",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Steel grade classification [EN 10020]"
+              },
+              {
+                "language": "de",
+                "text": "Klassifizierung von Stahlsorten [EN 10020]"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "S",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "steelDesignation",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Steel designation [EN 10027-2]"
+              },
+              {
+                "language": "de",
+                "text": "Stahlbezeichnung [EN 10027-2]"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "S",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "technologyRoute",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Technology route"
+              },
+              {
+                "language": "de",
+                "text": "Technologie Route"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Blast Furnace (BF) + Basic Oxygen Furnace (BOF)",
+            "valueId": null
+          }
+        ]
+      },
+      {
+        "id": "f63b6025-5ab0-45ca-a860-c6ee8c2f0f4b",
+        "extensions": [],
+        "category": null,
+        "idShort": "productOrigin",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "Producer identification and origin"
+          },
+          {
+            "language": "de",
+            "text": "Angaben zum Hersteller und zur Herkunft"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "21",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "uniqueFacilityIdentifier",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Unique facility identifier (UFI)"
+              },
+              {
+                "language": "de",
+                "text": "Eindeutige Anlagenkennung (UFI)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "549300DJRJ587HY9XJ03-GENT",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "uniqueOperatorIdentifier",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Unique Operator Identifier (UOI)"
+              },
+              {
+                "language": "de",
+                "text": "Eindeutige Betreiberkennung (UOI)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "549300DJRJ587HY9XJ03-GENT",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturer",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Manufacturer"
+              },
+              {
+                "language": "de",
+                "text": "Hersteller"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "name",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Name"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Name"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Steel Example Group",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "address",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Address"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Adresse"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "John Kennedylaan 51, 9042 Ghent (Gent), Belgium",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "trademark",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Trademark"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Marke"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Steel Example Group",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "contact",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Contact"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Kontakt"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "contact@steel-example-group.com",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "importer",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Importer"
+              },
+              {
+                "language": "de",
+                "text": "Importeur"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "name",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Name"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Name"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Steel Importer Group",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "address",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Address"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Adresse"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Sentier de Bois 3, Waterloo 1410, Belgium",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "trademark",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Trademark"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Marke"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Steel Importer Group",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "contact",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Contact"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Kontakt"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "contact@steel-importer-group.com",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "countryOfOrigin",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Country of origin"
+              },
+              {
+                "language": "de",
+                "text": "Herkunftsland"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Belgium",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "meltAndPour",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Origin for melt & pour"
+              },
+              {
+                "language": "de",
+                "text": "Herkunft der Schmelz- und Gießmasse"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturingDate",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Manufacturing date"
+              },
+              {
+                "language": "de",
+                "text": "Herstellungsdatum"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "Date",
+            "value": "2026-07-08",
+            "valueId": null
+          }
+        ]
+      },
+      {
+        "id": "29b81cc3-77f7-40c0-a58f-5e0f1ec436de",
+        "extensions": [],
+        "category": null,
+        "idShort": "materials",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "Material compliance and substances of concern (SoC)"
+          },
+          {
+            "language": "de",
+            "text": "Materialkonformität und bedenkliche Stoffe (SoC)"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "17",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "materialsAndSubstancesOfConcern",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Materials"
+              },
+              {
+                "language": "de",
+                "text": "Materialien"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementList",
+            "orderRelevant": true,
+            "semanticIdListElement": null,
+            "valueTypeListElement": null,
+            "typeValueListElement": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "row_384313e3-f767-466a-9d73-c11110aad2ae",
+                "displayName": [],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "SubmodelElementCollection",
+                "value": [
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "name",
+                    "displayName": [
+                      {
+                        "language": "en",
+                        "text": "Name or numerical code"
+                      },
+                      {
+                        "language": "de",
+                        "text": "Name oder numerischer Code"
+                      }
+                    ],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "Property",
+                    "valueType": "String",
+                    "value": null,
+                    "valueId": null
+                  },
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "location",
+                    "displayName": [
+                      {
+                        "language": "en",
+                        "text": "Location within product"
+                      },
+                      {
+                        "language": "de",
+                        "text": "Position innerhalb des Produkts"
+                      }
+                    ],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "Property",
+                    "valueType": "String",
+                    "value": null,
+                    "valueId": null
+                  },
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "concentration",
+                    "displayName": [
+                      {
+                        "language": "en",
+                        "text": "Concentration [%]"
+                      },
+                      {
+                        "language": "de",
+                        "text": "Konzentration [%]"
+                      }
+                    ],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "Property",
+                    "valueType": "Double",
+                    "value": null,
+                    "valueId": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "instructionsForSafeUse",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Hinweise zur sicheren Verwendung (sofern zutreffend)"
+              },
+              {
+                "language": "en",
+                "text": "Instructions for safe use (as relevant)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "AnyUri",
+            "value": "https://steel-example-group.com/safe-use",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "disassemblyInstructions",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Demontageanleitung"
+              },
+              {
+                "language": "en",
+                "text": "Disassembly instructions"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "AnyUri",
+            "value": "https://steel-example-group.com/disassembly",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "recyclingInstructions",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Reuse/ Recycling Anleitungen"
+              },
+              {
+                "language": "en",
+                "text": "Reuse/ Recycling instructions"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "AnyUri",
+            "value": "https://steel-example-group.com/recycling",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "disposalOfTheProduct",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Umweltverträgliche Entsorgung"
+              },
+              {
+                "language": "en",
+                "text": "Environmentally sound disposal"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "AnyUri",
+            "value": "https://steel-example-group.com/disposal",
+            "valueId": null
+          }
+        ]
+      },
+      {
+        "id": "39a9f7d0-098f-4034-9277-e8cea3ce2d13",
+        "extensions": [],
+        "category": null,
+        "idShort": "environmentalAndCircularityData",
+        "displayName": [
+          {
+            "language": "de",
+            "text": "Umwelt- und Kreislaufwirtschaftsdaten"
+          },
+          {
+            "language": "en",
+            "text": "Environmental and circularity data"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "16",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "productCarbonFootprint",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "CO₂-Fußabdruck des Produkts"
+              },
+              {
+                "language": "en",
+                "text": "Procuct carbon footprint"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "pcfTotal",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "CO₂-Fußabdruck des Produkts [kg CO₂e]"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Product carbon footprint [kg CO₂e]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "1800",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Konformitätserklärung/-zertifikat"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration/ certification"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "AnyUri",
+                "value": "https://steel-example-group.com/pcf-conformity",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "recycledContent",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Recycelter Anteil"
+              },
+              {
+                "language": "en",
+                "text": "Recycled content"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "total",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Gesamt [%]"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Total [%]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "53",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "preConsumer",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Recyclinganteil aus Vorverbrauchsabfällen [%]"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Recycled material from pre-consumer waste [%]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "20",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "postConsumer",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Recyclinganteil von Verbraucherabfällen [%]"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Recycled material from post-consumer waste [%]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "33",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Konformitätserklärung/ -zertifikat"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration/ certification"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "AnyUri",
+                "value": "https://steel-example-group.com/recycling-conformity",
+                "valueId": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "conceptDescriptions": []
+  },
+  "createdAt": "2026-04-28T18:37:50.880Z",
+  "updatedAt": "2026-04-28T18:37:50.880Z",
+  "format": "open-dpp:json",
+  "version": "5.0",
+  "lastStatusChange": {
+    "previousStatus": null,
+    "currentStatus": "Draft"
+  },
+  "presentationConfiguration": {
+    "elementDesign": {},
+    "defaultComponents": {}
+  }
+}

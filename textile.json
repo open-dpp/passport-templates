@@ -1,0 +1,1230 @@
+{
+  "id": "bc31b3e7-07bf-440e-9ac8-0c6650c59608",
+  "environment": {
+    "assetAdministrationShells": [
+      {
+        "assetInformation": {
+          "assetKind": "Type",
+          "globalAssetId": "32be63a4-35a9-4d9b-b100-608a6828b448",
+          "specificAssetIds": [],
+          "assetType": null,
+          "defaultThumbnails": []
+        },
+        "extensions": [],
+        "category": null,
+        "idShort": null,
+        "displayName": [
+          {
+            "language": "de",
+            "text": "Textil"
+          },
+          {
+            "language": "en",
+            "text": "Textile"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "6",
+          "revision": "0"
+        },
+        "embeddedDataSpecifications": [],
+        "derivedFrom": null,
+        "submodels": [
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "c69a1997-784a-4168-8ad9-48df394a4586"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "b9ef09cd-63fa-4f51-b3d7-4383cb4906de"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "f6937a9a-3013-40f2-a336-298d97221bce"
+              }
+            ]
+          }
+        ],
+        "security": {
+          "localAccessControl": {
+            "accessPermissionRules": [
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "admin",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentificationAndClassification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "producerIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "memberRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "owner",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentificationAndClassification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "producerIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "memberRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "member",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentificationAndClassification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "producerIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "anonymous",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productIdentificationAndClassification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "producerIdentification",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "productInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "submodels": [
+      {
+        "id": "c69a1997-784a-4168-8ad9-48df394a4586",
+        "extensions": [],
+        "category": null,
+        "idShort": "productIdentificationAndClassification",
+        "displayName": [
+          {
+            "language": "de",
+            "text": "Produktidentifizierung und -klassifizierung"
+          },
+          {
+            "language": "en",
+            "text": " Product identification and classification"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "14",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "uniqueProductId",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Eindeutige Produkt-ID"
+              },
+              {
+                "language": "en",
+                "text": "Unique product ID"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "urn:epc:id:sgtin:0614141.100195.123456789.",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "batchId",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Chargennummer"
+              },
+              {
+                "language": "en",
+                "text": "Batch ID"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "0614141100195.LOT456",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "modelId",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Modell-ID"
+              },
+              {
+                "language": "en",
+                "text": "Model ID"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "0614141100195",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "productESPRCategory",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Produkt ESPR Kategorie"
+              },
+              {
+                "language": "en",
+                "text": "Product ESPR category"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "knitted",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "productPEFCRCategory",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Produkt PEFCR Kategorie"
+              },
+              {
+                "language": "en",
+                "text": "Product PEFCR category"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Apparel (T-Shirts)",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "HSCode",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "HS Kennung"
+              },
+              {
+                "language": "en",
+                "text": "HS Code"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "610910",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "TARICCode",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "TARIC Kennung"
+              },
+              {
+                "language": "en",
+                "text": "TARIC Code"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "6109100010",
+            "valueId": null
+          }
+        ]
+      },
+      {
+        "id": "b9ef09cd-63fa-4f51-b3d7-4383cb4906de",
+        "extensions": [],
+        "category": null,
+        "idShort": "producerIdentification",
+        "displayName": [
+          {
+            "language": "de",
+            "text": "Angaben zum Hersteller"
+          },
+          {
+            "language": "en",
+            "text": "Producer identification"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "22",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturerUniqueOperatorIdentifier",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Eindeutige Betreiberkennung des Herstellers"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer unique operator identifier"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "5412345678901",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturerName",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Herstellername"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer name"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Textile Group ",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturerAddress",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Postanschrift des Herstellers"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer postal address"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Black Prince Road 42, London, Textile Group ",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manufacturerContact",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Kontaktdaten des Herstellers"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer contact information"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "contact@textile-group.de ",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "uniqueFacilityIdentifier",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Eindeutige Identifikatoren für Einrichtungen"
+              },
+              {
+                "language": "en",
+                "text": "Unique facility identifier(s)"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "5412345678901",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "importerUniqueOperatorIdentifier",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Eindeutige Betreiberkennung des Importeurs"
+              },
+              {
+                "language": "en",
+                "text": "Importer unique operator identifier"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "0614141999992",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "importerName",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Name des Importeurs"
+              },
+              {
+                "language": "en",
+                "text": "Importer name"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Textile Imp. GmbH",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "importerPostalAddress",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Importer postal address"
+              },
+              {
+                "language": "de",
+                "text": "Postalische Adresse des Importeurs"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "Example street 9, 79281 Berlin",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "importerContact",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Importer contact information"
+              },
+              {
+                "language": "de",
+                "text": "Kontaktdaten des Importeur"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": "contact@textile-imp.de",
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "otherResponsibleOperatorIdentifier",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Other responsible operator identifier"
+              },
+              {
+                "language": "de",
+                "text": "Sonstige zuständige Betreiberkennung"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "otherResponsibleOperatorName",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Other responsible operator name"
+              },
+              {
+                "language": "de",
+                "text": "Name des anderen verantwortlichen Betreibers"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "otherResponsibleOperatorAddress",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Other responsible operator address"
+              },
+              {
+                "language": "de",
+                "text": "Postalische Adresse des anderen veranwortlichen Betreibers"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "otherResponsibleOperatorContact",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Other responsible operator contact information"
+              },
+              {
+                "language": "de",
+                "text": "Kontaktdaten des anderen verantwortlichen Betreibers"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "String",
+            "value": null,
+            "valueId": null
+          }
+        ]
+      },
+      {
+        "id": "f6937a9a-3013-40f2-a336-298d97221bce",
+        "extensions": [],
+        "category": null,
+        "idShort": "productInformation",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "Product Information"
+          },
+          {
+            "language": "de",
+            "text": "Produktinformation"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "6",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "materialInformation",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Material information"
+              },
+              {
+                "language": "de",
+                "text": "Material Information"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "fiberComposition",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Fiber composition"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Faserzusammensetzung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Wool",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "componentsSpecification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Components specification"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Spezifikation der Komponenten"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": null,
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "robustnessScore",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Robustness score"
+              },
+              {
+                "language": "de",
+                "text": "Robustheitswert"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "Property",
+            "valueType": "Double",
+            "value": "7",
+            "valueId": null
+          }
+        ]
+      }
+    ],
+    "conceptDescriptions": []
+  },
+  "createdAt": "2026-04-28T18:34:30.902Z",
+  "updatedAt": "2026-04-28T18:34:30.902Z",
+  "format": "open-dpp:json",
+  "version": "5.0",
+  "lastStatusChange": {
+    "previousStatus": null,
+    "currentStatus": "Draft"
+  },
+  "presentationConfiguration": {
+    "elementDesign": {},
+    "defaultComponents": {}
+  }
+}
