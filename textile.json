@@ -25,7 +25,7 @@
         ],
         "description": [],
         "administration": {
-          "version": "6",
+          "version": "7",
           "revision": "0"
         },
         "embeddedDataSpecifications": [],
@@ -58,6 +58,16 @@
               {
                 "type": "Submodel",
                 "value": "f6937a9a-3013-40f2-a336-298d97221bce"
+              }
+            ]
+          },
+          {
+            "type": "ModelReference",
+            "referredSemanticId": null,
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "398690a8-de61-4915-abf6-14210cbc0581"
               }
             ]
           }
@@ -157,6 +167,39 @@
                       "extensions": [],
                       "category": null,
                       "idShort": "productInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "complianceDocumentation",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -321,6 +364,39 @@
                         "kindOfPermission": "Allow"
                       }
                     ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "complianceDocumentation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
                   }
                 ]
               },
@@ -458,6 +534,39 @@
                         "kindOfPermission": "Allow"
                       }
                     ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "complianceDocumentation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Create",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Edit",
+                        "kindOfPermission": "Allow"
+                      },
+                      {
+                        "permission": "Delete",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
                   }
                 ]
               },
@@ -544,6 +653,27 @@
                         "kindOfPermission": "Allow"
                       }
                     ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "complianceDocumentation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
                   }
                 ]
               }
@@ -570,7 +700,7 @@
         ],
         "description": [],
         "administration": {
-          "version": "14",
+          "version": "15",
           "revision": "0"
         },
         "kind": null,
@@ -579,30 +709,6 @@
         "qualifiers": [],
         "embeddedDataSpecifications": [],
         "submodelElements": [
-          {
-            "extensions": [],
-            "category": null,
-            "idShort": "uniqueProductId",
-            "displayName": [
-              {
-                "language": "de",
-                "text": "Eindeutige Produkt-ID"
-              },
-              {
-                "language": "en",
-                "text": "Unique product ID"
-              }
-            ],
-            "description": [],
-            "semanticId": null,
-            "supplementalSemanticIds": [],
-            "qualifiers": [],
-            "embeddedDataSpecifications": [],
-            "modelType": "Property",
-            "valueType": "String",
-            "value": "urn:epc:id:sgtin:0614141.100195.123456789.",
-            "valueId": null
-          },
           {
             "extensions": [],
             "category": null,
@@ -617,14 +723,23 @@
                 "text": "Batch ID"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "GTIN + Lot number or equivalent, compliant with EN 18219."
+              },
+              {
+                "language": "de",
+                "text": "GTIN + Chargennummer oder gleichwertige Angabe, konform mit EN 18219."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "0614141100195.LOT456",
+            "value": "4260123450014.LOT2026-0417",
             "valueId": null
           },
           {
@@ -641,14 +756,23 @@
                 "text": "Model ID"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "GTIN - 13 or equivalent, compliant with EN 18219"
+              },
+              {
+                "language": "de",
+                "text": "GTIN – 13-stellig oder gleichwertig, konform mit EN 18219"
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "0614141100195",
+            "value": "4260123450014",
             "valueId": null
           },
           {
@@ -665,7 +789,16 @@
                 "text": "Product ESPR category"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "ESPR classification (knitted, woven, high denim product)"
+              },
+              {
+                "language": "de",
+                "text": "ESPR-Klassifizierung (Strickwaren, Webwaren, Denim-Produkte)"
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
@@ -689,7 +822,16 @@
                 "text": "Product PEFCR category"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "PEFCR for Apparel and Footwear"
+              },
+              {
+                "language": "de",
+                "text": "PEFCR für Bekleidung und Schuhe"
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
@@ -713,7 +855,16 @@
                 "text": "HS Code"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "6-digit code. The first two digits (61, 62) refer to knitted and not knitted apparel and clothing, with the following numbers specifying to the type of article and the materials."
+              },
+              {
+                "language": "de",
+                "text": "6-stelliger Code. Die ersten beiden Ziffern (61, 62) beziehen sich auf gestrickte bzw. nicht gestrickte Bekleidung, wobei die folgenden Ziffern die Art des Artikels und die Materialien angeben."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
@@ -737,7 +888,16 @@
                 "text": "TARIC Code"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "TARIC codes incorporate the first 6 digits of the HS code plus 4 additional digits (the first two further classify the product for EU exports and the final two identify tariff rates for imports)."
+              },
+              {
+                "language": "de",
+                "text": "TARIC-Codes setzen sich aus den ersten 6 Ziffern des HS-Codes sowie 4 weiteren Ziffern zusammen (die ersten beiden dienen der weiteren Klassifizierung des Erzeugnisses für EU-Exporte, die letzten beiden geben die Zollsätze für Einfuhren an)."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
@@ -766,7 +926,7 @@
         ],
         "description": [],
         "administration": {
-          "version": "22",
+          "version": "23",
           "revision": "0"
         },
         "kind": null,
@@ -789,14 +949,23 @@
                 "text": "Manufacturer unique operator identifier"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "Party Global Location Number (Party GLN) or equivalent, compliant with EN 18219, and Economic Operators Registration and Identification (EORI), if available."
+              },
+              {
+                "language": "de",
+                "text": "Party Global Location Number (Party GLN) oder eine gleichwertige Kennung gemäß EN 18219 sowie die EORI-Nummer (Economic Operators Registration and Identification), sofern verfügbar."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "5412345678901",
+            "value": "GLN 4260123450021, EORI PT123456789",
             "valueId": null
           },
           {
@@ -820,7 +989,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "Textile Group ",
+            "value": "Têxtil Verde Lda.",
             "valueId": null
           },
           {
@@ -844,7 +1013,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "Black Prince Road 42, London, Textile Group ",
+            "value": "Rua das Fábricas 12, 4800-123 Guimarães, Portugal",
             "valueId": null
           },
           {
@@ -868,7 +1037,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "contact@textile-group.de ",
+            "value": "info@textil-verde.example.com",
             "valueId": null
           },
           {
@@ -885,14 +1054,23 @@
                 "text": "Unique facility identifier(s)"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "Global Location Number (GLN), or equivalent, compliant with EN 18219."
+              },
+              {
+                "language": "de",
+                "text": "Global Location Number (GLN) oder ein gleichwertiges System, das der Norm EN 18219 entspricht."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "5412345678901",
+            "value": "4260123450021",
             "valueId": null
           },
           {
@@ -909,14 +1087,23 @@
                 "text": "Importer unique operator identifier"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "Party Global Location Number (Party GLN) or equivalent, compliant with EN 18219, and Economic Operators Registration and Identification (EORI)."
+              },
+              {
+                "language": "de",
+                "text": "Party Global Location Number (Party GLN) oder eine gleichwertige Kennung gemäß EN 18219 sowie die EORI-Nummer (Economic Operators Registration and Identification)."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "0614141999992",
+            "value": "GLN 4260987650049, EORI DE123456789012345",
             "valueId": null
           },
           {
@@ -940,7 +1127,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "Textile Imp. GmbH",
+            "value": "EcoWear Import GmbH",
             "valueId": null
           },
           {
@@ -964,7 +1151,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "Example street 9, 79281 Berlin",
+            "value": "Hauptstraße 9, 10827 Berlin, Germany",
             "valueId": null
           },
           {
@@ -988,7 +1175,7 @@
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "String",
-            "value": "contact@textile-imp.de",
+            "value": "service@ecowear-import.example.com",
             "valueId": null
           },
           {
@@ -1005,7 +1192,16 @@
                 "text": "Sonstige zuständige Betreiberkennung"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "Party Global Location Number (Party GLN) or equivalent, compliant with EN 18219, and Economic Operators Registration and Identification (EORI)."
+              },
+              {
+                "language": "de",
+                "text": "Party Global Location Number (Party GLN) oder eine gleichwertige Kennung gemäß EN 18219 sowie die EORI-Nummer (Economic Operators Registration and Identification)."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
@@ -1106,7 +1302,7 @@
         ],
         "description": [],
         "administration": {
-          "version": "6",
+          "version": "7",
           "revision": "0"
         },
         "kind": null,
@@ -1157,7 +1353,7 @@
                 "embeddedDataSpecifications": [],
                 "modelType": "Property",
                 "valueType": "String",
-                "value": "Wool",
+                "value": "70% organic cotton, 30% recycled cotton",
                 "valueId": null
               },
               {
@@ -1174,14 +1370,23 @@
                     "text": "Spezifikation der Komponenten"
                   }
                 ],
-                "description": [],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "GTIN-13 or equivalent, compliant with EN 18219"
+                  },
+                  {
+                    "language": "de",
+                    "text": "GTIN-13 oder gleichwertig, konform mit EN 18219"
+                  }
+                ],
                 "semanticId": null,
                 "supplementalSemanticIds": [],
                 "qualifiers": [],
                 "embeddedDataSpecifications": [],
                 "modelType": "Property",
                 "valueType": "String",
-                "value": null,
+                "value": "4260123450038",
                 "valueId": null
               }
             ]
@@ -1200,15 +1405,1672 @@
                 "text": "Robustheitswert"
               }
             ],
-            "description": [],
+            "description": [
+              {
+                "language": "en",
+                "text": "Methodology to be proposed in detail under ESPR DA of textiles (described in the current ESPR preparatory study)."
+              },
+              {
+                "language": "de",
+                "text": "Die Methodik soll im Rahmen der ESPR-DA für Textilien im Detail vorgeschlagen werden (beschrieben in der aktuellen ESPR-Vorbereitungsstudie)."
+              }
+            ],
             "semanticId": null,
             "supplementalSemanticIds": [],
             "qualifiers": [],
             "embeddedDataSpecifications": [],
             "modelType": "Property",
             "valueType": "Double",
-            "value": "7",
+            "value": "8",
             "valueId": null
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "chemicalProperties",
+            "displayName": [
+              {
+                "language": "de",
+                "text": "Chemische Eigenschaften"
+              },
+              {
+                "language": "en",
+                "text": "Chemical properties"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "substancesOfConcern",
+                "displayName": [
+                  {
+                    "language": "de",
+                    "text": "Besorgniserregende Stoffe"
+                  },
+                  {
+                    "language": "en",
+                    "text": "Substances of concern"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "SubmodelElementList",
+                "orderRelevant": true,
+                "semanticIdListElement": null,
+                "valueTypeListElement": null,
+                "typeValueListElement": "SubmodelElementCollection",
+                "value": [
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "row_bca17094-a63b-4fca-b597-98186f91e578",
+                    "displayName": [],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "codeOrName",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung des im Produkt enthaltenen bedenklichen Stoffes."
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code of the substance of concern present in the product."
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Formaldehyde (CAS 50-00-0)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "location",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location within product"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen des bedenklichen Stoffes im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location of the substances of concern within the product"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Main fabric (finishing residue)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "concentration",
+                        "displayName": [
+                          {
+                            "language": "en",
+                            "text": "Concentration at the level of the product [%]"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Konzentration auf Produktebene [%]"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "en",
+                            "text": "Values expressed in % w/w in relation to the weight of an article as defined in the REACH regulation"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Werte, ausgedrückt in % w/w bezogen auf das Gewicht eines Artikels gemäß der Definition in der REACH-Verordnung"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "Double",
+                        "value": "0.0008",
+                        "valueId": null
+                      }
+                    ]
+                  },
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "row_9b3a3e3f-bcbc-4b64-a007-a68c1e0d5b98",
+                    "displayName": [],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "codeOrName",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung des im Produkt enthaltenen bedenklichen Stoffes."
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code of the substance of concern present in the product."
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Copper compounds (CAS 7440-50-8)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "location",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location within product"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen des bedenklichen Stoffes im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location of the substances of concern within the product"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Main fabric (reactive dye complex)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "concentration",
+                        "displayName": [
+                          {
+                            "language": "en",
+                            "text": "Concentration at the level of the product [%]"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Konzentration auf Produktebene [%]"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "en",
+                            "text": "Values expressed in % w/w in relation to the weight of an article as defined in the REACH regulation"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Werte, ausgedrückt in % w/w bezogen auf das Gewicht eines Artikels gemäß der Definition in der REACH-Verordnung"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "Double",
+                        "value": "0.0020",
+                        "valueId": null
+                      }
+                    ]
+                  },
+                  {
+                    "extensions": [],
+                    "category": null,
+                    "idShort": "row_9cb7334e-f1b6-4652-bcb5-3f03ef5d0309",
+                    "displayName": [],
+                    "description": [],
+                    "semanticId": null,
+                    "supplementalSemanticIds": [],
+                    "qualifiers": [],
+                    "embeddedDataSpecifications": [],
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "codeOrName",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Bezeichnung oder numerische Kennung des im Produkt enthaltenen bedenklichen Stoffes."
+                          },
+                          {
+                            "language": "en",
+                            "text": "Name or numerical code of the substance of concern present in the product."
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Nonylphenol ethoxylates (CAS 9016-45-9)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "location",
+                        "displayName": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location within product"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "de",
+                            "text": "Vorkommen des bedenklichen Stoffes im Produkt"
+                          },
+                          {
+                            "language": "en",
+                            "text": "Location of the substances of concern within the product"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "String",
+                        "value": "Main fabric (dyeing auxiliary residue)",
+                        "valueId": null
+                      },
+                      {
+                        "extensions": [],
+                        "category": null,
+                        "idShort": "concentration",
+                        "displayName": [
+                          {
+                            "language": "en",
+                            "text": "Concentration at the level of the product [%]"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Konzentration auf Produktebene [%]"
+                          }
+                        ],
+                        "description": [
+                          {
+                            "language": "en",
+                            "text": "Values expressed in % w/w in relation to the weight of an article as defined in the REACH regulation"
+                          },
+                          {
+                            "language": "de",
+                            "text": "Werte, ausgedrückt in % w/w bezogen auf das Gewicht eines Artikels gemäß der Definition in der REACH-Verordnung"
+                          }
+                        ],
+                        "semanticId": null,
+                        "supplementalSemanticIds": [],
+                        "qualifiers": [],
+                        "embeddedDataSpecifications": [],
+                        "modelType": "Property",
+                        "valueType": "Double",
+                        "value": "0.0005",
+                        "valueId": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "instructionsForSafeUse",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Instructions for the safe use of the product"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Hinweise zur sicheren Verwendung des Produkts"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Wash before first wear. Not intended to be chewed or eaten. Keep away from open flames.",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "instructionsForDisassembly",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Instructions for disassembly"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anleitung zur Demontage"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Remove the neck label and the care label by cutting the stitching. No other non-textile components are present.",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "instructionsForReuse",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Instructions for reuse"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anweisungen zur Wiederverwendung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Pass on to family or friends, or donate via textile collection or second-hand shops if the garment is still wearable.",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "instructionsForRecycling",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Instructions for recycling"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anleitung zum Recycling"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Hand over to a separate textile collection for fibre-to-fibre recycling of cotton.",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "instructionsForDisposal",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Disposal instructions"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anweisungen für die Entsorgung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Do not dispose of in residual waste. Use separate textile collection points as required in the EU from 2025.",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "recyclability",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Recyclability"
+              },
+              {
+                "language": "de",
+                "text": "Recycelbarkeit"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "recyclabilityScore",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Recyclability score"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Recyclingfähigkeitsbewertung"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Methodology to be proposed in detail under ESPR DA of textiles (described in the current ESPR preparatory study)."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Die Methodik soll im Rahmen des ESPR-DA-Projekts für Textilien im Detail vorgeschlagen werden (beschrieben in der aktuellen ESPR-Vorstudien)."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "6",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "recycledContent",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Recycled content [%]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anteil an recyceltem Material [%]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Value expressed in % w/w in relation to the product’s weight."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Der Wert wird in % w/w bezogen auf das Gewicht des Produkts angegeben."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "30",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "originOfRecycledContent",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Origin of the recycled content"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Herkunft des recycelten Anteil"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Post-industrial, pre- and post-consumer waste. Potential additional information to distinguish secondary material from textiles waste or from other sources and EU / non-EU production."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Postindustrielle Abfälle, Vor- und Nachverbraucherabfälle. Mögliche zusätzliche Angaben zur Unterscheidung von Sekundärrohstoffen von Textilabfällen oder aus anderen Quellen sowie zur Herkunft aus der EU bzw. aus Nicht-EU-Ländern."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Pre-consumer (post-industrial) cotton cutting waste from EU garment production",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "otherEnvironmentalLaws",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Other environmental laws"
+              },
+              {
+                "language": "de",
+                "text": "Sonstige Umweltgesetze"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "organicContent",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Organic content [%]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Anteil an organischen Stoffen [%]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Value expressed in % w/w in relation to the product’s weight."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Der Wert wird in % w/w bezogen auf das Gewicht des Produkts angegeben."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "70",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "euEcolabel",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "EU Ecolabel"
+                  },
+                  {
+                    "language": "de",
+                    "text": "EU-Umweltzeichen"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Boolean",
+                "value": "true",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "productFootprint",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Product Footprint"
+              },
+              {
+                "language": "de",
+                "text": "Produktfußabdruck"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productCarbonFootprintClassOfPerfmance",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product carbon footprint - Class of performance"
+                  },
+                  {
+                    "language": "de",
+                    "text": "CO₂-Fußabdruck des Produkts – Leistungsklasse"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Methodology to be proposed under ESPR DA of textiles based on PEFCR (climate change impact category, partial consideration of lifecycle stages\nas described in the ESPR preparatory study)."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Im Rahmen der ESPR-Da für Textilien ist eine Methodik auf der Grundlage des PEFCR vorzuschlagen (Kategorie der Auswirkungen auf den Klimawandel, teilweise Berücksichtigung von Lebenszyklusphasen, wie in der ESPR-Vorbereitungsstudie beschrieben)."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "2",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productEnvironmentalFootprintClassOfPerformance",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product environmental footprint – Class of performance"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Umweltbilanz des Produkts – Leistungsklasse"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Methodology to be proposed under ESPR DA of textiles based\non PEFCR (single score, partial consideration of lifecycle stages as described in the ESPR preparatory study)."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Im Rahmen der ESPR-Da für Textilien vorzuschlagende Methodik auf der Grundlage\ndes PEFCR (Einheitsbewertung, teilweise Berücksichtigung von Lebenszyklusphasen gemäß der ESPR-Vorbereitungsstudie)."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "2",
+                "valueId": null
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "manualsAndInstructions",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Manuals and instructions"
+              },
+              {
+                "language": "de",
+                "text": "Handbücher und Anleitungen"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "careInstructions",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Care instructions"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Pflegehinweise"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "String",
+                "value": "Machine wash at 30 °C, gentle cycle. Do not bleach. Tumble dry low. Iron at low temperature. Do not dry clean.",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "repairInstructions ",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Repair instructions"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Reparaturanleitung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "AnyUri",
+                "value": "https://www.ecowear-import.example.com/repair/organic-tshirt",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "contactOfRepairServices",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Contact of repair services offered by brand"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Kontaktdaten der Reparaturdienste der einzelnen Marken"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "AnyUri",
+                "value": "https://www.ecowear-import.example.com/repair-service",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "warrantyDuration",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Warranty duration"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Garantiedauer"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Commercial guarantee duration above the 2-year legal minimum"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Kommerzielle Garantie mit einer Laufzeit, die über das gesetzliche Mindestmaß von zwei Jahren hinausgeht"
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "3",
+                "valueId": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "398690a8-de61-4915-abf6-14210cbc0581",
+        "extensions": [],
+        "category": null,
+        "idShort": "complianceDocumentation",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "Compliance documentation"
+          },
+          {
+            "language": "de",
+            "text": "Compliance-Dokumentation"
+          }
+        ],
+        "description": [],
+        "administration": {
+          "version": "36",
+          "revision": "0"
+        },
+        "kind": null,
+        "semanticId": null,
+        "supplementalSemanticIds": [],
+        "qualifiers": [],
+        "embeddedDataSpecifications": [],
+        "submodelElements": [
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "mechanicalProperties",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Mechanical properties"
+              },
+              {
+                "language": "de",
+                "text": "Mechanische Eigenschaften"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "visualInspection",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Visual inspection"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Sichtprüfung"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Test results ISO 15487"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Testergebnisse ISO 15487 "
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "4.5",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "spirality",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Spirality [%]"
+                  },
+                  {
+                    "language": "bg",
+                    "text": "Spiralität [%]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Test results ISO 16322-3 (%)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Testergebnisse ISO 16322-3 (%) "
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "2.1",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "dimensionalChange ",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Dimensional change [%]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Maßänderung [%]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Test results ISO 3759"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Testergebnisse ISO 3759"
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "2.5",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityCertification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity certification (third-party verification) "
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätsbescheinigung (Überprüfung durch eine unabhängige Stelle) "
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration (self-declaration)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätserklärung (Selbsterklärung)"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "recyclability",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Recyclability"
+              },
+              {
+                "language": "de",
+                "text": "Recycelbarkeit"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityCertification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity certification (third-party verification)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätsbescheinigung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration (self-declaration)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätserklärung (Selbsterklärung)"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "recycledContent",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Recycled content"
+              },
+              {
+                "language": "de",
+                "text": "Anteil an recyceltem Material"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "weight",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Weight (excluding trims) [kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Gewicht (ohne Verkleidungen) [kg]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "0.18",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "amountOfRecycledMaterial",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Amount of recycled material [kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Menge des recycelten Materials [kg]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "0.054",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityCertification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity certification (third-party verification) "
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätsbescheinigung (Überprüfung durch eine unabhängige Stelle) "
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration (self-declaration)"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "organicContent",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Organic content"
+              },
+              {
+                "language": "de",
+                "text": "Anteil an organischen Stoffen"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "weight",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Weight (excluding trims) [kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Gewicht (ohne Verkleidungen) [kg]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Value expressed in kg EN ISO 80000-1 (Quantities and units)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Angabe in kg gemäß EN ISO 80000-1 (Größen und Einheiten)"
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "0.18",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "amountOfOrganicMaterial",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Amount of organic material [kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Menge an organischem Material [kg]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "0.126",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityCertification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity certification (third-party verification) "
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätsbescheinigung (Überprüfung durch eine unabhängige Stelle)"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration ",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration (self-declaration)"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätserklärung"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              }
+            ]
+          },
+          {
+            "extensions": [],
+            "category": null,
+            "idShort": "productFootprint",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "Product footprint"
+              },
+              {
+                "language": "de",
+                "text": "Produkt Fußabdruck"
+              }
+            ],
+            "description": [],
+            "semanticId": null,
+            "supplementalSemanticIds": [],
+            "qualifiers": [],
+            "embeddedDataSpecifications": [],
+            "modelType": "SubmodelElementCollection",
+            "value": [
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productCarbonFootprint",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product carbon footprint [kg CO₂e/kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "CO₂-Fußabdruck des Produkts [kg CO₂e/kg]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Absolute value"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Absoluter Wert"
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "14.2",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productCarbonFootprintBenchmark",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product carbon footprint - Compared to a benchmark [%]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "CO₂-Fußabdruck des Produkts – im Vergleich zu einem Referenzwert [%]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "Value expressed in % as compared to the benchmark in the PECFR. Methodology to be proposed under\nESPR DA of textiles based on PEFCR (climate change impact category, partial consideration of lifecycle stages)."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Wert in Prozent im Vergleich zum Referenzwert im PECFR. Die Methodik soll im Rahmen der ESPR-DA für Textilien auf der Grundlage des PEFCR vorgeschlagen werden (Kategorie der Auswirkungen auf den Klimawandel, teilweise Berücksichtigung von Lebenszyklusphasen)."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "88",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productEnvironmentalFootprint",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product environmental footprint [environmental points/ kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Umweltbelastung des Produkts [Umweltpunkte/kg]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "12.4",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "productEnvironmentalFootprintBenchmark",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Product environmental footprint - Compared to benchmark [%]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Umweltbelastung des Produkts – im Vergleich zum Referenzwert [%]"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "92",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "weight",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Weight [kg]"
+                  },
+                  {
+                    "language": "de",
+                    "text": "Gewicht [kg]"
+                  }
+                ],
+                "description": [
+                  {
+                    "language": "en",
+                    "text": "It needs to align with the methodology of the PEFCR, so it refers to the average final product weight (including trims), which reflects the mass after raw material acquisition, manufacturing, and assembly."
+                  },
+                  {
+                    "language": "de",
+                    "text": "Es muss mit der Methodik des PEFCR in Einklang stehen, daher bezieht es sich auf das durchschnittliche Endproduktgewicht (einschließlich Verschnitt), das die Masse nach der Rohstoffbeschaffung, der Herstellung und der Montage widerspiegelt."
+                  }
+                ],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "Property",
+                "valueType": "Double",
+                "value": "0.185",
+                "valueId": null
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityCertification",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity certification (third-party verification) "
+                  },
+                  {
+                    "language": "de",
+                    "text": "Konformitätsbescheinigung (Überprüfung durch eine unabhängige Stelle) "
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              },
+              {
+                "extensions": [],
+                "category": null,
+                "idShort": "conformityDeclaration",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "Conformity declaration (self-declaration)"
+                  },
+                  {
+                    "language": "bg",
+                    "text": "Konformitätserklärung (Selbsterklärung)"
+                  }
+                ],
+                "description": [],
+                "semanticId": null,
+                "supplementalSemanticIds": [],
+                "qualifiers": [],
+                "embeddedDataSpecifications": [],
+                "modelType": "File",
+                "contentType": "image/webp",
+                "value": "3f224a8f-616b-425b-9c97-d153d6edeb3b"
+              }
+            ]
           }
         ]
       }
@@ -1218,7 +3080,7 @@
   "createdAt": "2026-04-28T18:34:30.902Z",
   "updatedAt": "2026-04-28T18:34:30.902Z",
   "format": "open-dpp:json",
-  "version": "5.0",
+  "version": "6.0",
   "lastStatusChange": {
     "previousStatus": null,
     "currentStatus": "Draft"
@@ -1226,5 +3088,6 @@
   "presentationConfiguration": {
     "elementDesign": {},
     "defaultComponents": {}
-  }
+  },
+  "passportEditingMode": "Full"
 }
