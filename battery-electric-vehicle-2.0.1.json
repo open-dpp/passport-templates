@@ -1031,7 +1031,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "dppHeader",
+                      "idShort": "dppHeader.granularity",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1052,7 +1052,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "batteryCarbonFootprint",
+                      "idShort": "dppHeader.contentSpecificationIds",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1073,7 +1073,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "batteryMaterialsAndComposition",
+                      "idShort": "dppHeader.lastUpdated",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1094,7 +1094,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "circularityAndResourceEfficiency",
+                      "idShort": "dppHeader.dppSchemaVersion",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1115,7 +1115,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "identifiersAndProductData",
+                      "idShort": "batteryCarbonFootprint.contributionOfRawMaterialAcquisitionAndPreProcessingLifecycleStage",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1136,7 +1136,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "performanceAndDurability",
+                      "idShort": "batteryCarbonFootprint.batteryCarbonFootprintPerFunctionalUnit",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1157,7 +1157,7 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "supplyChainDueDiligence",
+                      "idShort": "batteryCarbonFootprint.contributionOfMainProductProductionLifecycleStage",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
@@ -1178,7 +1178,2028 @@
                     "object": {
                       "extensions": [],
                       "category": null,
-                      "idShort": "symbolsLabelsAndDocumentationOfConformity",
+                      "idShort": "batteryCarbonFootprint.contributionOfDistributionLifecycleStage",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryCarbonFootprint.contributionOfEndOfLifeAndRecyclingLifecycleStage",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryCarbonFootprint.carbonFootprintPerformanceClass",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryCarbonFootprint.webLinkToPublicCarbonFootprintStudy",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryCarbonFootprint.absoluteBatteryCarbonFootprint",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.batteryChemistry",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.criticalRawMaterials",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.hazardousSubstancesAndTheirImpact",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.nickelRecycledContentShare",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.cobaltRecycledContentShare",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.lithiumRecycledContentShare",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.leadRecycledContentShare",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.renewableContentShare",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnTheRoleOfEndUsersInContributingToWastePrevention",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnTheRoleOfEndUsersInContributingToTheSeparateCollectionOfWasteBatteries",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnBatteryCollectionPreparationForSecondLifeAndOnTreatmentAtEndOfLife",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.batteryModelIdentifier",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.batterySerialNumber",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.economicOperatorInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.manufacturerInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.manufacturingPlace",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.manufacturingDate",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.dateOfPuttingTheBatteryIntoService",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.warrantyPeriod",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.batteryCategory",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.batteryMass",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.ratedCapacity",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.certifiedUsableBatteryEnergy",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.minimumVoltage",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.maximumVoltage",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.nominalVoltage",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.originalPowerCapability",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.maximumPermittedBatteryPower",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.initialRoundTripEnergyEfficiency",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.roundTripEnergyEfficiencyAt50PerCentOfCycleLife",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.initialInternalResistanceOfBatteryCellAndPackModuleRecommended",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.expectedLifetimeNumberOfChargeDischargeCycles",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.cycleLifeReferenceTest",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.cRateOfRelevantCycleLifeTest",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.capacityThresholdForExhaustion",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.temperatureRangeIdleStateLowerBoundary",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.temperatureRangeIdleStateUpperBoundary",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "supplyChainDueDiligence.informationOfDueDiligenceReport",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "supplyChainDueDiligence.thirdPartyAssurancesOfRecognisedSchemes",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "supplyChainDueDiligence.supplyChainIndices",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.separateCollectionSymbol",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.symbolsForCadmiumAndLead",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.carbonFootprintLabel",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.extinguishingAgent",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.meaningOfLabelsAndSymbols",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.euDeclarationOfConformity",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "guestRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "Repairer",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.materialsUsedInCathodeAnodeAndElectrolyte",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.dismantlingInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.partNumbersForComponents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnSourcesOfSpareParts",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.safetyMeasures",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "guestRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "Recycler",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.materialsUsedInCathodeAnodeAndElectrolyte",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.dismantlingInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.safetyMeasures",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "guestRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "MarketSurveillance",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "dppHeader.economicOperatorId",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "dppHeader.facilityId",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.materialsUsedInCathodeAnodeAndElectrolyte",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.dismantlingInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.partNumbersForComponents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnSourcesOfSpareParts",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.safetyMeasures",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.thirdPartyServiceProvider",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.uniqueManufacturerIdentifier",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "identifiersAndProductData.batteryStatus",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.remainingCapacity",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.capacityFade",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.remainingUsableBatteryEnergy",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.stateOfCertifiedEnergySOCE",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.stateOfChargeSoC",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.remainingPowerCapability",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.powerFade",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.energyRoundTripEfficiencyFade",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.internalResistanceIncreaseOfPackCellAndModuleRecommended",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.expectedLifetimeInCalendarYears",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.numberOfFullChargingAndDischargingCycles",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.temperatureInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.numberOfDeepDischargeEvents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.numberOfOverchargeEvents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "performanceAndDurability.informationOnAccidents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "symbolsLabelsAndDocumentationOfConformity.resultsOfTestReportsProvingCompliance",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "targetSubjectAttributes": {
+                  "subjectAttribute": [
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "userRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "user",
+                      "valueId": null
+                    },
+                    {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "guestRole",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "Property",
+                      "valueType": "String",
+                      "value": "IndependentOperator",
+                      "valueId": null
+                    }
+                  ]
+                },
+                "permissionsPerObject": [
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "batteryMaterialsAndComposition.materialsUsedInCathodeAnodeAndElectrolyte",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.dismantlingInformation",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.partNumbersForComponents",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.informationOnSourcesOfSpareParts",
+                      "displayName": [],
+                      "description": [],
+                      "semanticId": null,
+                      "supplementalSemanticIds": [],
+                      "qualifiers": [],
+                      "embeddedDataSpecifications": [],
+                      "modelType": "ReferenceElement",
+                      "value": null
+                    },
+                    "permissions": [
+                      {
+                        "permission": "Read",
+                        "kindOfPermission": "Allow"
+                      }
+                    ]
+                  },
+                  {
+                    "object": {
+                      "extensions": [],
+                      "category": null,
+                      "idShort": "circularityAndResourceEfficiency.safetyMeasures",
                       "displayName": [],
                       "description": [],
                       "semanticId": null,
